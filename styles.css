@@ -4,6 +4,7 @@
   
   body {
     background-color: white;
+    margin: 3em 0;
   }
   
   h1 {
@@ -56,4 +57,22 @@
 
   #submit:hover {
     background-color: #08d47c;
+  }
+
+  @media (max-width: 810px){
+    form {
+      width: 60%;
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 375px){
+    body {
+      margin: 2em 20px;
+    }
+
+    form {
+      width: auto;
+      margin: auto;
+    }
   }
